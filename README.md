@@ -1,7 +1,7 @@
 Automated Way to Create an AWS Media Services-Centric CloudWatch Dashboard
 ==========================================================================
 
-This repository is part of a AWS Media Blog post, called [Automated Way to Create an AWS Media Services-Centric CloudWatch Dashboard] (https://aws-preview.aka.amazon.com/blogs/media/automated-way-to-create-an-aws-media-services-centric-cloudwatch-dashboard/)
+This repository is part of a AWS Media Blog post, called [Automated Way to Create an AWS Media Services-Centric CloudWatch Dashboard](https://aws.amazon.com/blogs/media/automated-way-to-create-an-aws-media-services-centric-cloudwatch-dashboard/)
 
 This blog post describes two methods for automating the creation of CloudWatch dashboards that present widgets in a consistent, user-friendly layout optimized for media workflows. One method uses a Python script and the other applies an AWS CloudFormation template that utilizes the Python script. If you already have a working environment for the AWS SDK for Python (Boto3), the Python script will be easiest to use. This is also true if you have a large number of dashboards to create. If you don’t use the AWS SDK for Python, then the CloudFormation template will be the easiest solution for you. Both approaches are designed for media workflows that incorporate the AWS Elemental MediaLive and AWS Elemental MediaPackage services and will generate a dashboard with widgets that present key metrics from those services during operation. Please note there are many different ways to achieve the same result programmatically.
 
